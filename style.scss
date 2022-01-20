@@ -1,0 +1,768 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1920px;
+    
+  }
+  $black: #0D444D;
+  $waves-color:#C5E1E6;
+  $yellow-bttn:#FFF5BA;
+  $bg:#2A8086;
+  $hero-text:#F3F7F8;
+  $footer-bg:#196469;
+  $bttn-lined:#19707D;
+
+  $bamboo-tree:
+  #2A8086;
+  @mixin h1 {
+    font: {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 72px;
+      
+    }
+}
+
+@mixin top-menu {
+  font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+
+text-transform: uppercase;
+
+color: #C4C4C4;
+
+}
+
+
+
+
+.bag-top {
+   width: 100vw;
+  background-color:$bg;
+}
+  .wrapper {
+    max-width: 1280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .header {
+    background-color: $bamboo-tree;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right:0;
+    
+  }
+
+
+  .nav-header {
+      list-style-type: none;
+      display: flex;
+     
+      @include top-menu;
+      color: $waves-color;
+      padding-right: 2em;
+      margin-left: 2em;
+      white-space: nowrap;
+      overflow-x: hidden;
+  }
+
+  .nav-header-string {
+    margin-top: 2.5em;
+    padding-right: 3.4em;
+ 
+  
+      
+  }
+
+  .logo-header {
+    
+    margin-top: 5em;
+    margin-left: 12.2em;
+}
+
+
+  .header-auth {
+    list-style-type: none;
+    display: flex;
+    margin-left: 33em;
+    margin-top: 2em;
+    padding-right: 5em;
+ 
+    
+  }
+
+
+
+  .header-login {
+    margin-left: 3em;
+  }
+
+
+
+
+  .header-signup {
+    
+    border: 1px solid #C5E1E6;
+    box-sizing: border-box;
+    border-radius: 100px;
+   padding: 14px 15px 16px 14px;
+   margin-left: 5em;
+  
+  }
+
+
+
+.hero {
+  display:flex;
+  flex-direction: row-reverse;
+  margin-top: 137px;
+  background-color: $bg;
+  
+}
+
+.heading-panda {
+  font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+color: $hero-text;
+font-size: 50px;
+
+
+}
+
+.text-panda {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* hero-text */
+
+color: #F3F7F8;
+}
+
+.watch-panda-btn {
+  font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+border:none;
+
+letter-spacing: -0.05em;
+text-transform: uppercase;
+
+/* Bttn-black */
+
+color: #0D444D;
+background: #FFFFFF;
+width:258px;
+height:52px;
+border-radius: 100px;
+padding: 14px 84px;
+white-space: nowrap;
+margin-top: 110px;
+}
+
+
+
+.how-it-works-text {
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color:$black;
+margin-top:20%;
+}
+
+.how-it-works-list {
+  display:flex;
+  margin-top:20%;
+ 
+
+}
+
+
+.how-it-works-image {
+  background: #E5E5E5;;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 300px;
+  padding: 41px 37px 40px 44px;
+  
+ 
+  
+}
+
+.how-it-works-component-text{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* black */
+white-space: nowrap;
+color: #0D444D;
+}
+
+.how-it-works-component {
+  padding-left: 20%;
+}
+
+
+
+
+.bag-mid {
+  width: 100%;
+  background-color:$bg;
+}
+
+.binoculars {
+  width: 145px;
+}
+
+
+.background-blue {
+  margin-top: 5%;
+  width:100%;
+
+}
+
+.background-blue-2 {
+  margin-top: -30%;
+  width:100%;
+
+}
+
+.scene-under-how-it-works-elements {
+  display: flex;
+  margin-top: -15%;
+}
+
+
+.round-tree {
+  padding-left: 5%;
+}
+
+.round-tree-little {
+  padding-left: 20%;
+  margin-top: -7%;
+  
+}
+
+
+
+.panda-with-tree {
+  padding-left: 5%;
+  
+}
+
+.bamboo-tree-2 {
+  padding-left: 47%;
+  position: absolute;
+}
+
+.round-tree-2 {
+  padding-left: 15%;
+}
+
+
+.header-pets-in-zoo {
+  margin-top: 20%; 
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0D444D;
+  display: grid;
+  margin-left: -20%;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 4px;
+grid-row-gap: 4px;
+}
+.heading-pets-in-zoo {
+  grid-area: 1 / 1 / 2 / 2; 
+}
+
+.btn-choose-favorite {
+ margin-left: 80%;
+ grid-column-end: 5;
+  width: 331px;
+  height: 52px;
+  border-radius: 100px ;
+  padding: 10px 14px 14px 10px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #19707D;
+
+}
+
+
+.pets-in-zoo-list {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: -20%;
+    
+  }
+
+
+.pets-in-zoo-list__animal{
+  width: 480px;
+height: 364px;
+  background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+}
+
+.bag-pets-in-zoo {
+  width: 100vw;
+  background-color: #F5F9FA;
+}
+
+.pets-in-zoo-list__image {
+  padding-left: 30%;
+  padding-top: 5%;
+}
+
+.pets-in-zoo-list-name {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500px;
+font-size: 24px;
+line-height: 28px;
+
+color: #2D2D2D;
+padding-left: 30px;
+}
+
+.pets-in-zoo-list-location {
+  padding-left: 30px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+padding-top: 10px;
+color: #919191;
+}
+
+.pets-in-zoo-list-video-icon {
+  padding-left: 400px;
+}
+
+.penguin-icon {
+  margin-left: 2%;
+  margin-top: 65%;
+}
+
+
+.background-blue-pay-and-feed {
+  margin-top: -12%;
+  width:100%;
+}
+
+ .background-blue-2-blue-pay-and-feed{
+  margin-top: -30%;
+  width:100%;
+ }
+
+ .pay-and-feed-heading {
+ position: absolute;
+ margin-top: -6%;
+ margin-left: 10%;
+ display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 4px;
+grid-row-gap: 4px;
+ }
+
+ .pay-and-feed-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #C5E1E6;
+ }
+
+
+ .btn-donate-to-volunteers {
+  margin-left: 70%;
+  grid-column-end: 5;
+   width: 331px;
+   height: 52px;
+   border-radius: 100px ;
+   padding: 10px 14px 14px 10px;
+   font-family: Roboto Mono;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 24px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   white-space: nowrap;
+   color: #19707D;
+   background-color: #C5E1E6;;
+   
+ }
+
+
+
+.pay-and-feed-list {
+  display:flex;
+  position: absolute;
+  margin-top: -17%;
+  margin-left: 18%;
+}
+
+
+
+.pay-and-feed-list-element-text{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* white */
+
+color: #C5E1E6;
+
+}
+
+
+
+.pay-and-feed-image {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+  border-radius: 300px;
+  padding: 41px 37px 40px 44px;
+}
+
+.pay-and-feed-elements {
+
+  margin-top: -20%;
+  display:flex;
+}
+
+
+.bamboo-tree-pay-and-feed {
+  padding-left: 87.1%;
+} 
+
+
+.testimonials-header {
+  margin-top: 20%; 
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0D444D;
+  display: grid;
+  width: 1480px;
+height: 364px;
+
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 4px;
+grid-row-gap: 4px;
+}
+.btn-testimonials-leave-feedback {
+
+  grid-column-end: 5;
+  width: 331px;
+  height: 52px;
+  border-radius: 100px;
+  padding: 10px 14px 14px 10px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgb(25, 112, 125);
+}
+
+
+.testimonials-commentaries-list {
+  display:flex;
+  justify-content:center;
+  margin-top: 30%;
+  margin-left: -110%;
+}
+
+.testimonials-component-date {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #B3B3B3;
+
+}
+
+.testimonials-component-text {
+  font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #2D2D2D;
+}
+
+.testimonials-user:nth-child(1) {
+  font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+padding-top: 20px;
+display: flex;
+color: #000000;
+
+}
+
+
+.testimonials-component:nth-child(1) {
+  width: 480px;
+  height: 190px;
+  margin-right: 20%;
+  background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+padding-top: 28px;
+padding-left: 45px;
+padding-bottom:146px;
+padding-left:45px;
+
+}
+
+
+.bag-testimonials {
+  width: 100vw;
+  background-color: #F5F9FA;
+}
+
+
+
+
+.testimonials-user:nth-child(1) {
+  font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+padding-top: 20px;
+display: flex;
+color: #000000;
+
+
+}
+
+
+.testimonials-component:nth-child(2) {
+  width: 480px;
+  height: 190px;
+  margin-right: 20%;
+  background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+padding-top: 28px;
+padding-left: 45px;
+padding-bottom:146px;
+padding-left:45px;
+
+}
+.testimonials-user:nth-child(1) {
+  font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+padding-top: 20px;
+display: flex;
+color: #000000;
+
+}
+
+
+.testimonials-component:nth-child(3) {
+  width: 480px;
+  height: 190px;
+  margin-right: 20%;
+  background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+padding-top: 28px;
+padding-left: 45px;
+padding-bottom:146px;
+padding-left:45px;
+}
+
+.look-at-beautiful-animals {
+  margin-top: 10%;
+  
+
+}
+
+.bag-look-at-beautiful-animals {
+  width: 100vw;
+  background-color: #F5F9FA;
+}
+
+.look-at-this-beautiful-animals-heading {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0D444D;
+  padding-bottom: 5%;
+}
+
+
+ .look-at-this-beautiful-animals-component-text{
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+.look-at-this-beautiful-animals-list {
+  display: flex;
+  flex-direction: row;
+  width: 1447px;
+  height: 131px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5%;
+ 
+}
+
+
+.look-at-this-beautiful-animals-component-image {
+  border-radius: 50%;
+}
+
+.look-at-this-beautiful-animals-component-text{
+  font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+
+color: #2D2D2D;
+}
+
+.look-at-this-beautiful-animals-arrows-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F9FA;
+}
+
+.bag-bottom {
+  width: 100vw;
+  height: auto;
+  background-color:$bg;
+}
+
+.nav-footer {
+  list-style-type: none;
+  display: flex;
+  @include top-menu;
+  color: $waves-color;
+
+  
+}
+
+
+
+.logo-header{
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.nav-footer-string {
+  padding-right: 69px;
+    margin-top: 54px;
+}
+
+.figma-design {
+  margin-left: 140%;
+  white-space: nowrap;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+.figma-creator {
+  padding-bottom: 10px;
+}
